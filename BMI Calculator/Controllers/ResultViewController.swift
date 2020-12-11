@@ -9,21 +9,18 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
     @IBOutlet weak var bmiResultLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-    
 
     @IBAction func recaluculatePressed(_ sender: UIButton) {
-        
-        
+  
     }
-    
 
 }
